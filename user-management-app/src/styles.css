@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+  }
+  
+  a.active {
+    font-weight: bold;
+    background-color: #ccc;
+  }
+  /* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Set the color of the scrollbar thumb on hover */
+}
+.container {
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 0 200px; /* Adjust the width of the sidebar column */
+  height: 100vh; /* Adjust the height of the sidebar column */
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #f1f1f1; /* Set the background color of the sidebar column */
+}
+
+.content {
+  flex: 1; /* Take up remaining space */
+  padding: 20px;
+}

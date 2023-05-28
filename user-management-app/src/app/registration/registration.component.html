@@ -1,0 +1,15 @@
+<div class="registration-container">
+    <h1>Registration</h1>
+    <form>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" [(ngModel)]="username" placeholder="Enter your username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" [(ngModel)]="password" placeholder="Enter your password">
+      </div>
+      <button class="btn" (click)="registerUser()">Register</button>
+    </form>
+  </div>
+  

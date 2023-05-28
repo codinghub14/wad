@@ -1,0 +1,8 @@
+<div class="profile-container">
+    <h1>Welcome, {{ username }}!</h1>
+    <p><strong>Name:</strong> {{ userData?.name }}</p>
+    <p><strong>Email:</strong> {{ userData?.email }}</p>
+    <p><strong>Phone:</strong> {{ userData?.phone }}</p>
+    <button class="btn" (click)="fetchUserData()">Show User Data</button>
+  </div>
+  
