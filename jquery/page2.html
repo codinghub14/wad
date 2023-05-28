@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Page 2</title>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+  <div data-role="page">
+    <div data-role="header" data-position="fixed">
+      <h1>Page 2</h1>
+    </div>
+
+    <div data-role="content">
+      <h2>Welcome to Page 2</h2>
+      <p>This is another attractive web page with some longer content to demonstrate.</p>
+      <ul data-role="listview" data-inset="true">
+        <li><a href="page1.html">Go to Page 1</a></li>
+        <li><a href="page3.html">Go to Page 3</a></li>
+        <li><a href="#details1">Item 1</a></li>
+        <li><a href="#details2">Item 2</a></li>
+        <li><a href="#details3">Item 3</a></li>
+      </ul>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+      <h4>Footer content</h4>
+    </div>
+  </div>
+
+  <!-- Details pages -->
+  <div data-role="page" id="details1">
+    <div data-role="header" data-position="fixed">
+      <a href="#page2" data-rel="back" data-icon="back">Back</a>
+      <h1>Item 1 Details</h1>
+    </div>
+
+    <div data-role="content">
+      <h2>Item 1</h2>
+      <p>Details about Item 1.</p>
+    </div>
+  </div>
+
+  <div data-role="page" id="details2">
+    <div data-role="header" data-position="fixed">
+      <a href="#page2" data-rel="back" data-icon="back">Back</a>
+      <h1>Item 2 Details</h1>
+    </div>
+
+    <div data-role="content">
+      <h2>Item 2</h2>
+      <p>Details about Item 2.</p>
+    </div>
+  </div>
+
+  <div data-role="page" id="details3">
+    <div data-role="header" data-position="fixed">
+      <a href="#page2" data-rel="back" data-icon="back">Back</a>
+      <h1>Item 3 Details</h1>
+    </div>
+
+    <div data-role="content">
+      <h2>Item 3</h2>
+      <p>Details about Item 3.</p>
+    </div>
+  </div>
+</body>
+</html>
