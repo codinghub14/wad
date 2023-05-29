@@ -1,5 +1,21 @@
+Create one folder static-website
+
 npm init
 
 npm i express
 
-node server.js
+
+create a public folder in static-website
+
+create index.html
+
+paste the code
+
+
+create server.js paste the code
+ 
+ 
+ now run the app using commad
+ 
+ node sever.js
+ 
